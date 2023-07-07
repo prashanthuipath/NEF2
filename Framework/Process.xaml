@@ -132,7 +132,7 @@
                 <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" ContinueOnError="True" DisplayName="Efile Data Add Queue Item" sap:VirtualizedContainerService.HintSize="388,198" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="High" QueueType="[in_Config(&quot;OrchestratorQueueName&quot;).ToString()]" Reference="[in_TransactionItem.Item(&quot;PAN&quot;).ToString()]">
                   <ui:AddQueueItem.ItemInformation>
                     <InArgument x:TypeArguments="x:String" x:Key="Name">[in_TransactionItem.Item("Name").ToString()]</InArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="FileName">[in_TransactionItem.Item("Json File Name").ToString()+".json"]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="FileName">[in_TransactionItem.Item("Json File Name").ToString()]</InArgument>
                     <InArgument x:TypeArguments="x:String" x:Key="Password">[in_TransactionItem.Item("Password").ToString()]</InArgument>
                     <InArgument x:TypeArguments="x:Int32" x:Key="TotalIncome">[CInt( in_TransactionItem.Item("Net Taxable Income"))]</InArgument>
                     <InArgument x:TypeArguments="x:Int32" x:Key="TaxLiability">[CInt(in_TransactionItem.Item("Tax Liability"))]</InArgument>

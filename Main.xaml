@@ -253,7 +253,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Assign DisplayName="Assign BusinessException" sap:VirtualizedContainerService.HintSize="438.6666666666667,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_25">
+                      <Assign DisplayName="Assign Business Exception" sap:VirtualizedContainerService.HintSize="438.6666666666667,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_25">
                         <Assign.To>
                           <OutArgument x:TypeArguments="ui:BusinessRuleException">[BusinessException]</OutArgument>
                         </Assign.To>
